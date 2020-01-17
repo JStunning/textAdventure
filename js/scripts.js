@@ -94,8 +94,19 @@ $(document).ready(function(){
       $("#druid").hide();
 
       $("span#noneName").append(`${name}`);
-
     }
+
+    // restart button
+    $("#restart").click(function(){
+      location.reload(true);
+    })
+
+    // start button
+    /* 
+      $("#start").click(function(){
+      $(location).attr("href", )
+    }) 
+    */
 
 
 

@@ -40,7 +40,7 @@
 
         <div class="form-group aName">
           <label for="aName"><p>Adventurers Name:</p></label>
-          <input type="text" id="aNameInput" class="form-control">
+          <input type="text" id="aNameInput" class="form-control" value="Adventurer">
         </div>
 
         <!-- Class -->
@@ -54,6 +54,7 @@
             <option value="rogue">Rogue</option>
             <option value="cleric">Cleric</option>
             <option value="druid">Druid</option>
+            <option value="none">-- None --</option>
           </select>
         </div>
 
@@ -71,35 +72,48 @@
 
       <h2>Your Adventurer:</h2>
 
-      <div class="knight">
+      <div id="knight">
         <img src="./img/knight.png" alt="">
-        <span id="knightName"></span>
+        <br>
+        <p><span id="knightName"></span></p>
       </div>
 
-      <div class="wizard">
+      <div id="wizard">
         <img src="./img/wizard.png" alt="">
-        <span id="wizardName"></span>
+        <br>
+        <p><span id="wizardName"></span></p>
       </div>
 
-      <div class="archer">
+      <div id="archer">
         <img src="./img/archer.png" alt="">
-        <span id="archerName"></span>
+        <br>
+        <p><span id="archerName"></span></p>
       </div>
 
-      <div class="rogue">
+      <div id="rogue">
         <img src="./img/rogue.png" alt="">
-        <span id="rogueName"></span>
+        <br>
+        <p><span id="rogueName"></span></p>
       </div>
 
-      <div class="cleric">
+      <div id="cleric">
         <img src="./img/cleric.png" alt="">
-        <span id="clericName"></span>
+        <br>
+        <p><span id="clericName"></span></p>
       </div>
 
-      <div class="druid">
+      <div id="druid">
         <img src="./img/druid.png" alt="">
-        <span id="druidName"></span>
+        <br>
+        <p><span id="druidName"></span></p>
       </div>
+
+      <div id="none">
+        <p><span id="noneName"></span></p>
+      </div>
+
+      <button id="start" type="submit">Start!</button>
+      <button id="restart" type="submit">restart?</button>
 
     </div>
 

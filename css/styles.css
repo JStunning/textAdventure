@@ -1,8 +1,9 @@
+/*
 @font-face {
   font-family: retroFont;
   src: url(fonts/retroFont.ttf);
 }
-
+*/
 body {
   margin-top: 20px;
   word-wrap: none;
@@ -12,7 +13,6 @@ body {
   border: 5px solid blue;
   margin: 2% 10% 0 10%;
   padding: 0;
-  font-family: retroFont;
 }
 
 p {
@@ -50,4 +50,31 @@ form {
 
 .userAdventurer {
   display: none;
+}
+
+.userAdventurer h2 {
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+
+.userAdventurer p {
+  margin-bottom: 5%;
+}
+
+#start {
+  color: green;
+  background-color: black;
+  border: 2px solid green;
+  font-size: 24px;
+  padding: 0 15px 0 15px;
+  margin: 2% 5% 8% 5%;
+}
+
+#restart {
+  color: red;
+  background-color: black;
+  border: 2px solid red;
+  font-size: 24px;
+  padding: 0 15px 0 15px;
+  margin: 2% 5% 8% 5%;
 }

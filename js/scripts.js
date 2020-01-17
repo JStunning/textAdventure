@@ -19,6 +19,7 @@ $(document).ready(function(){
       $("#rogue").hide();
       $("#cleric").hide();
       $("#druid").hide();
+      $("#none").hide();
 
       $("span#knightName").append(`${name}`);
     } else if (aClass === "wizard") {
@@ -30,6 +31,7 @@ $(document).ready(function(){
       $("#rogue").hide();
       $("#cleric").hide();
       $("#druid").hide();
+      $("#none").hide();
 
       $("span#wizardName").append(`${name}`);
     } else if (aClass === "archer") {
@@ -41,6 +43,7 @@ $(document).ready(function(){
       $("#rogue").hide();
       $("#cleric").hide();
       $("#druid").hide();
+      $("#none").hide();
 
       $("span#archerName").append(`${name}`);
     } else if (aClass === "rogue") {
@@ -52,6 +55,7 @@ $(document).ready(function(){
       $("#knight").hide();
       $("#cleric").hide();
       $("#druid").hide();
+      $("#none").hide();
 
       $("span#rogueName").append(`${name}`);
     } else if (aClass === "cleric") {
@@ -63,6 +67,7 @@ $(document).ready(function(){
       $("#rogue").hide();
       $("#knight").hide();
       $("#druid").hide();
+      $("#none").hide();
 
       $("span#clericName").append(`${name}`);
     } else if (aClass === "druid") {
@@ -74,6 +79,7 @@ $(document).ready(function(){
       $("#rogue").hide();
       $("#cleric").hide();
       $("#knight").hide();
+      $("#none").hide();
 
       $("span#druidName").append(`${name}`);
     } else {
@@ -87,7 +93,7 @@ $(document).ready(function(){
       $("#cleric").hide();
       $("#druid").hide();
 
-      $("span#druidName").append(`${name}`);
+      $("span#noneName").append(`${name}`);
 
     }
 

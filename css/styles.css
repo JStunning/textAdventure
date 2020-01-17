@@ -1,20 +1,53 @@
+@font-face {
+  font-family: retroFont;
+  src: url(fonts/retroFont.ttf);
+}
+
 body {
   margin-top: 20px;
   word-wrap: none;
   text-align: center;
-  color: white;
+  color: green;
   background-color: black;
   border: 5px solid blue;
   margin: 2% 10% 0 10%;
+  padding: 0;
+  font-family: retroFont;
+}
+
+p {
+  font-size: 20px;
 }
 
 .header {
-  border: 5px dashed red;
-  border-bottom: 5px solid white;
+  border-bottom: 2px solid white;
   margin: 2% 0 2% 0;
+}
+
+span {
+  margin: 0;
+  padding: 0;
 }
 
 .fancyText {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+}
+
+form {
+  margin-top: 5%;
+}
+
+#submit {
+
+  color: green;
+  background-color: black;
+  border: 2px solid green;
+  font-size: 24px;
+  padding: 0 15px 0 15px;
+  margin: 2% 0 8% 0;
+}
+
+.userAdventurer {
+  display: none;
 }

@@ -13,15 +13,95 @@
     <!-- Header -->
 
     <div class="header">
-      <h1>Are you ready for a <strong class="fancyText">TEXT ADVENTURE?</strong></h1>
-      <h6>because you are about to start one</h6>
+      <h1>
+        <span style='color: red'>A</span>
+        <span style='color: orange'>D</span>
+        <span style='color: yellow'>V</span>
+        <span style='color: green'>E</span>
+        <span style='color: blue'>N</span>
+        <span style='color: purple'>T</span>
+        <span style='color: violet'>U</span>
+        <span style='color: red'>R</span>
+        <span style='color: orange'>E</span>
+        <span style='color: yellow'>O</span>
+        <span style='color: green'>N</span>
+      </h1>
+      <h6>Are you ready for a <strong class="fancyText">TEXT ADVENTURE?</h6>
     </div>
 
+    <!-- Form -->
 
-    <!-- Body -->
+    <div class="adventurersDetails">
+      <h2>Choose your adventurer</h2>
 
-    
+      <form id="formBox">
 
+        <!-- Name -->
+
+        <div class="form-group aName">
+          <label for="aName"><p>Adventurers Name:</p></label>
+          <input type="text" id="aNameInput" class="form-control">
+        </div>
+
+        <!-- Class -->
+
+        <div class="form-group aClass">
+          <p>Adventurers Class:</p>
+          <select class="form-control" id="aClass">
+            <option value="knight">Knight</option>
+            <option value="wizard">Wizard</option>
+            <option value="archer">Archer</option>
+            <option value="rogue">Rogue</option>
+            <option value="cleric">Cleric</option>
+            <option value="druid">Druid</option>
+          </select>
+        </div>
+
+        <!-- Submit Button-->
+
+          <button id="submit" type="submit">Start!</button>
+
+      </form>
+
+    </div> <!-- Form end -->
+
+    <!-- Created Character -->
+
+    <div class="userAdventurer">
+
+      <h2>Your Adventurer:</h2>
+
+      <div class="knight">
+        <img src="./img/knight.png" alt="">
+        <span id="knightName"></span>
+      </div>
+
+      <div class="wizard">
+        <img src="./img/wizard.png" alt="">
+        <span id="wizardName"></span>
+      </div>
+
+      <div class="archer">
+        <img src="./img/archer.png" alt="">
+        <span id="archerName"></span>
+      </div>
+
+      <div class="rogue">
+        <img src="./img/rogue.png" alt="">
+        <span id="rogueName"></span>
+      </div>
+
+      <div class="cleric">
+        <img src="./img/cleric.png" alt="">
+        <span id="clericName"></span>
+      </div>
+
+      <div class="druid">
+        <img src="./img/druid.png" alt="">
+        <span id="druidName"></span>
+      </div>
+
+    </div>
 
 
 

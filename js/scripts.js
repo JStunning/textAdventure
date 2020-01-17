@@ -116,9 +116,6 @@ $(document).ready(function(){
       $(location).attr("href", "./startAdventure.html?class=" + getClass(aClass) + "&name=" + getName(aName))
     }) 
     
-
-
-
   })
 
 

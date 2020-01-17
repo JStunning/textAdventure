@@ -1,8 +1,7 @@
 @font-face {
-  src: url(fonts/retroFont.ttf);
+  src: url(../fonts/retroFont.ttf);
   font-family: retroFont;
 }
-
 
 body {
   margin-top: 20px;

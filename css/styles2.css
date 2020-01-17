@@ -25,13 +25,8 @@ body {
   border: 3px solid blue;
 }
 
-p {
-  font-size: 20px;
-}
-
-.header {
-  border-bottom: 2px solid white;
-  margin: 2% 0 2% 0;
+h4 {
+  margin-top: 5%;
 }
 
 span {
@@ -39,7 +34,41 @@ span {
   padding: 0;
 }
 
-.fancyText {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
+button {
+  color: green;
+  background-color: black;
+  border: 2px solid green;
+  font-size: 24px;
+  padding: 0 15px 0 15px;
+  margin: 2% 0 2% 0;
+}
+
+img {
+  width: 300px;
+}
+
+.header {
+  border-bottom: 2px solid white;
+  margin: 2% 0 2% 0;
+}
+
+#path1 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto 3% auto;
+  padding: 2%;
+}
+
+#path2 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto 3% auto;
+  padding: 2%;
+}
+
+#path3 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto auto auto;
+  padding: 2%;
 }

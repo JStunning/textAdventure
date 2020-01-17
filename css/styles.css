@@ -1,18 +1,28 @@
 @font-face {
-  src: url(../fonts/retroFont.ttf);
+  src: url(../fonts/retroFont.ttf); /* ctrl + space*/
   font-family: retroFont;
 }
 
 body {
   margin-top: 20px;
-  word-wrap: none;
   text-align: center;
   color: green;
   background-color: black;
-  border: 5px solid blue;
   margin: 2% 10% 0 10%;
   padding: 0;
   font-family: retroFont;
+}
+
+.container {
+  border: 5px solid blue;
+  width: 99%;
+  margin: auto;
+  padding: 5px 0 5px 0;
+}
+
+.container .container {
+  padding: 5%;
+  border: 3px solid blue;
 }
 
 p {
@@ -57,7 +67,7 @@ form {
   border: 2px solid green;
   font-size: 24px;
   padding: 0 15px 0 15px;
-  margin: 2% 0 8% 0;
+  margin: 2% 0 0 0;
 }
 
 .userAdventurer {
@@ -80,7 +90,7 @@ form {
   border: 2px solid green;
   font-size: 24px;
   padding: 0 15px 0 15px;
-  margin: 2% 5% 8% 5%;
+  margin: 2% 5% 2% 0;
 }
 
 #restart {
@@ -89,11 +99,5 @@ form {
   border: 2px solid red;
   font-size: 24px;
   padding: 0 15px 0 15px;
-  margin: 2% 5% 8% 5%;
-}
-
-/* startAdventure html */
-
-#adventure h2 {
-  font-family: 'Times New Roman', Times, serif;
+  margin: 2% 5% 2% 0;
 }

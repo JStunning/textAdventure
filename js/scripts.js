@@ -101,12 +101,11 @@ $(document).ready(function(){
       location.reload(true);
     })
 
-    // start button
-    /* 
-      $("#start").click(function(){
-      $(location).attr("href", )
+    // start button  
+    $("#start").click(function(){
+      $(location).attr("href", "./startAdventure.html?")
     }) 
-    */
+    
 
 
 

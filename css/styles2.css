@@ -1,0 +1,29 @@
+body {
+  margin-top: 20px;
+  word-wrap: none;
+  text-align: center;
+  color: green;
+  background-color: black;
+  border: 5px solid blue;
+  margin: 2% 10% 0 10%;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.header {
+  border-bottom: 2px solid white;
+  margin: 2% 0 2% 0;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.fancyText {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}

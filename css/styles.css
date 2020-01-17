@@ -38,6 +38,18 @@ form {
   margin-top: 5%;
 }
 
+#aNameInput {
+  background-color: black;
+  color: white;
+  border-color: green;
+}
+
+#aClass {
+  background-color: black;
+  color: white;
+  border-color: green;
+}
+
 #submit {
 
   color: green;
@@ -59,6 +71,7 @@ form {
 
 .userAdventurer p {
   margin-bottom: 5%;
+  color: white;
 }
 
 #start {

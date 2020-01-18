@@ -3,124 +3,129 @@
 <head>
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./fonts/retroFont.ttf">
   <script src="./js/jquery-3.4.1.js"></script>
   <script src="./js/scripts.js"></script>
   <title>JS and jQuery Independent Project</title>
 </head>
 <body>
-  <div class="container">
 
+  <div class="container">
+    <div class="container">
     <!-- Header -->
 
-    <div class="header">
-      <h1>
-        <span style='color: red'>A</span>
-        <span style='color: orange'>D</span>
-        <span style='color: yellow'>V</span>
-        <span style='color: green'>E</span>
-        <span style='color: blue'>N</span>
-        <span style='color: purple'>T</span>
-        <span style='color: violet'>U</span>
-        <span style='color: red'>R</span>
-        <span style='color: orange'>E</span>
-        <span style='color: yellow'>O</span>
-        <span style='color: green'>N</span>
-      </h1>
-      <h6>Are you ready for a <strong class="fancyText">TEXT ADVENTURE?</h6>
-    </div>
+      <div class="header">
+        <h1>
+          <span style='color: red'>A</span>
+          <span style='color: orange'>D</span>
+          <span style='color: yellow'>V</span>
+          <span style='color: green'>E</span>
+          <span style='color: blue'>N</span>
+          <span style='color: purple'>T</span>
+          <span style='color: violet'>U</span>
+          <span style='color: red'>R</span>
+          <span style='color: orange'>E</span>
+          <span style='color: yellow'>O</span>
+          <span style='color: green'>N</span>
+        </h1>
+        <h6>Are you ready for a <span class="fancyText"><strong>TEXT ADVENTURE?</span></h6>
+      </div>
 
-    <!-- Form -->
+      <!-- Form -->
 
-    <div class="adventurersDetails">
-      <h2>Choose your adventurer</h2>
+      <div class="adventurersDetails">
 
-      <form id="formBox">
+        <h2>Choose your adventurer</h2>
 
-        <!-- Name -->
+        <form id="formBox">
 
-        <div class="form-group aName">
-          <label for="aName"><p>Adventurers Name:</p></label>
-          <input type="text" id="aNameInput" class="form-control" value="Adventurer">
+          <!-- Name -->
+
+          <div class="form-group aName">
+            <label for="aName"><p>Adventurers Name:</p></label>
+            <input type="text" id="aNameInput" class="form-control" value="Adventurer">
+          </div>
+
+          <!-- Class -->
+
+          <div class="form-group aClass">
+            <p>Adventurers Class:</p>
+            <select class="form-control" id="aClass">
+              <option value="knight">Knight</option>
+              <option value="wizard">Wizard</option>
+              <option value="archer">Archer</option>
+              <option value="rogue">Rogue</option>
+              <option value="cleric">Cleric</option>
+              <option value="druid">Druid</option>
+              <option value="none">-- None --</option>
+            </select>
+          </div>
+
+          <!-- Submit Button-->
+
+            <button id="submit" type="submit">Start!</button>
+
+        </form>
+
+      </div> <!-- Form end -->
+
+      <!-- Created Character -->
+
+      <div class="userAdventurer">
+
+        <h2>Your Adventurer:</h2>
+
+        <div id="knight">
+          <img src="./img/knight.png" alt="">
+          <br>
+          <p><span id="knightName"></span></p>
         </div>
 
-        <!-- Class -->
-
-        <div class="form-group aClass">
-          <p>Adventurers Class:</p>
-          <select class="form-control" id="aClass">
-            <option value="knight">Knight</option>
-            <option value="wizard">Wizard</option>
-            <option value="archer">Archer</option>
-            <option value="rogue">Rogue</option>
-            <option value="cleric">Cleric</option>
-            <option value="druid">Druid</option>
-            <option value="none">-- None --</option>
-          </select>
+        <div id="wizard">
+          <img src="./img/wizard.png" alt="">
+          <br>
+          <p><span id="wizardName"></span></p>
         </div>
 
-        <!-- Submit Button-->
+        <div id="archer">
+          <img src="./img/archer.png" alt="">
+          <br>
+          <p><span id="archerName"></span></p>
+        </div>
 
-          <button id="submit" type="submit">Start!</button>
+        <div id="rogue">
+          <img src="./img/rogue.png" alt="">
+          <br>
+          <p><span id="rogueName"></span></p>
+        </div>
 
-      </form>
+        <div id="cleric">
+          <img src="./img/cleric.png" alt="">
+          <br>
+          <p><span id="clericName"></span></p>
+        </div>
 
-    </div> <!-- Form end -->
+        <div id="druid">
+          <img src="./img/druid.png" alt="">
+          <br>
+          <p><span id="druidName"></span></p>
+        </div>
 
-    <!-- Created Character -->
+        <div id="none">
+          <img src="./img/none.png" alt="">
+          <br>
+          <p><span id="noneName"></span></p>
+        </div>
 
-    <div class="userAdventurer">
+        <button id="start" type="submit">Start!</button>
+        <button id="restart" type="submit">Restart?</button>
 
-      <h2>Your Adventurer:</h2>
-
-      <div id="knight">
-        <img src="./img/knight.png" alt="">
-        <br>
-        <p><span id="knightName"></span></p>
       </div>
 
-      <div id="wizard">
-        <img src="./img/wizard.png" alt="">
-        <br>
-        <p><span id="wizardName"></span></p>
-      </div>
 
-      <div id="archer">
-        <img src="./img/archer.png" alt="">
-        <br>
-        <p><span id="archerName"></span></p>
-      </div>
-
-      <div id="rogue">
-        <img src="./img/rogue.png" alt="">
-        <br>
-        <p><span id="rogueName"></span></p>
-      </div>
-
-      <div id="cleric">
-        <img src="./img/cleric.png" alt="">
-        <br>
-        <p><span id="clericName"></span></p>
-      </div>
-
-      <div id="druid">
-        <img src="./img/druid.png" alt="">
-        <br>
-        <p><span id="druidName"></span></p>
-      </div>
-
-      <div id="none">
-        <img src="./img/none.png" alt="">
-        <p><span id="noneName"></span></p>
-      </div>
-
-      <button id="start" type="submit">Start!</button>
-      <button id="restart" type="submit">Restart?</button>
 
     </div>
-
-
-
-
   </div>
+
 </body>
 </html>

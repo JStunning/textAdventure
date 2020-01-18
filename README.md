@@ -12,6 +12,8 @@ _{This is a project I made for conditionals using a text based adventure to show
 
 * _Go to my github pages or download and run index.html_
 
+github-pages link: https://jackstunning.github.io/textAdventure/
+
 
 _{That should be all the set up}_
 

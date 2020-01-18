@@ -46,6 +46,7 @@ button {
 img {
   margin: 5%;
   border: 2px solid green;
+  width: 500px;
 }
 
 .header {

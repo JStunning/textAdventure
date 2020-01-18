@@ -36,7 +36,7 @@ $(document).ready(function(){
   }) 
 
   // path3 button
-  $("#path2").click(function(){
+  $("#path3").click(function(){
     $(location).attr("href", "./inn.html?class=" + getClass(userClass) + "&name=" + getName(userName))
   }) 
 

@@ -25,19 +25,4 @@ $(document).ready(function(){
     return userClass;
   }
 
-  // path1 button  
-  $("#path1").click(function(){
-    $(location).attr("href", "./princess.html?class=" + getClass(userClass) + "&name=" + getName(userName))
-  }) 
-
-  // path2 button
-  $("#path2").click(function(){
-    $(location).attr("href", "./dragon.html?class=" + getClass(userClass) + "&name=" + getName(userName))
-  }) 
-
-  // path3 button
-  $("#path2").click(function(){
-    $(location).attr("href", "./inn.html?class=" + getClass(userClass) + "&name=" + getName(userName))
-  }) 
-
 });

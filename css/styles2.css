@@ -25,13 +25,8 @@ body {
   border: 3px solid blue;
 }
 
-p {
-  font-size: 20px;
-}
-
-.header {
-  border-bottom: 2px solid white;
-  margin: 2% 0 2% 0;
+h4 {
+  margin-top: 5%;
 }
 
 span {
@@ -39,57 +34,45 @@ span {
   padding: 0;
 }
 
-.fancyText {
-  font-style: italic;
-  font-family: retroFont;
-}
-
-form {
-  margin-top: 5%;
-}
-
-#aNameInput {
-  background-color: black;
-  color: white;
-  border-color: green;
-}
-
-#aClass {
-  background-color: black;
-  color: white;
-  border-color: green;
-}
-
-#submit {
+button {
   color: green;
   background-color: black;
   border: 2px solid green;
   font-size: 24px;
   padding: 0 15px 0 15px;
-  margin: 2% 0 0 0;
+  margin: 2% 0 2% 0;
 }
 
-.userAdventurer {
-  display: none;
-}
-
-.userAdventurer h2 {
-  margin-bottom: 5%;
-  text-decoration: underline;
-}
-
-.userAdventurer p {
-  margin-bottom: 5%;
-  color: white;
-}
-
-#start {
-  color: green;
-  background-color: black;
+img {
+  width: 300px;
   border: 2px solid green;
-  font-size: 24px;
-  padding: 0 15px 0 15px;
-  margin: 2% 5% 2% 0;
+  margin-bottom: 2%;
+}
+
+.header {
+  border-bottom: 2px solid white;
+  margin: 2% 0 2% 0;
+}
+
+#path1 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto 3% auto;
+  padding: 2%;
+}
+
+#path2 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto 3% auto;
+  padding: 2%;
+}
+
+#path3 {
+  border: 2px solid green;
+  width: 500px;
+  margin: 3% auto auto auto;
+  padding: 2%;
 }
 
 #restart {
@@ -97,6 +80,6 @@ form {
   background-color: black;
   border: 2px solid red;
   font-size: 24px;
-  padding: 0 15px 0 15px;
-  margin: 2% 5% 2% 0;
+  margin: auto;
+  margin-top: 5%;
 }

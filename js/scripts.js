@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
     // Variables
-    var name = $("#aNameInput").val();
+    var aName = $("#aNameInput").val();
     var aClass = $("#aClass").val();
 
     // Conditionals
@@ -94,11 +94,28 @@ $(document).ready(function(){
       $("#druid").hide();
 
       $("span#noneName").append(`${name}`);
-
     }
 
+    // restart button
+    $("#restart").click(function(){
+      location.reload(true);
+    })
 
+    // getName function
+    function getName(userName) {
+      return userName;
+    }
 
+    // getClass function
+    function getClass(userClass) {
+      return userClass;
+    }
+
+    // start button  
+    $("#start").click(function(){
+      $(location).attr("href", "./startAdventure.html?class=" + getClass(aClass) + "&name=" + getName(aName))
+    }) 
+    
   })
 
 

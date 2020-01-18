@@ -14,6 +14,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#wizard").hide();
       $("#archer").hide();
       $("#rogue").hide();
@@ -26,6 +27,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#knight").hide();
       $("#archer").hide();
       $("#rogue").hide();
@@ -38,6 +40,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#wizard").hide();
       $("#knight").hide();
       $("#rogue").hide();
@@ -50,6 +53,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#wizard").hide();
       $("#archer").hide();
       $("#knight").hide();
@@ -62,6 +66,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#wizard").hide();
       $("#archer").hide();
       $("#rogue").hide();
@@ -74,6 +79,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#wizard").hide();
       $("#archer").hide();
       $("#rogue").hide();
@@ -86,6 +92,7 @@ $(document).ready(function(){
       $(".userAdventurer").show();
 
       $("#submit").hide();
+      $("#copyright").hide();
       $("#knight").hide();
       $("#wizard").hide();
       $("#archer").hide();

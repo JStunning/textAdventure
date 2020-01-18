@@ -101,3 +101,9 @@ form {
   padding: 0 15px 0 15px;
   margin: 2% 5% 2% 0;
 }
+
+#copyright {
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;
+}

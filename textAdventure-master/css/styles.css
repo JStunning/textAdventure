@@ -54,7 +54,6 @@ form {
   color: white;
   border-color: green;
 }
-<<<<<<< HEAD
 
 #aClass {
   background-color: black;
@@ -62,15 +61,6 @@ form {
   border-color: green;
 }
 
-=======
-
-#aClass {
-  background-color: black;
-  color: white;
-  border-color: green;
-}
-
->>>>>>> 6ff4fb5bf4f9856dc173ffa51b23f6585e17a9f4
 #submit {
   color: green;
   background-color: black;
@@ -110,13 +100,4 @@ form {
   font-size: 24px;
   padding: 0 15px 0 15px;
   margin: 2% 5% 2% 0;
-<<<<<<< HEAD
-}
-
-#copyright {
-  margin: 0;
-  padding: 0;
-  margin-top: 10%;
-=======
->>>>>>> 6ff4fb5bf4f9856dc173ffa51b23f6585e17a9f4
 }

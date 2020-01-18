@@ -74,3 +74,12 @@ img {
   margin: 3% auto auto auto;
   padding: 2%;
 }
+
+#restart {
+  color: red;
+  background-color: black;
+  border: 2px solid red;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 5%;
+}
